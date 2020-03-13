@@ -3,17 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46B3E73A54B0D76A371511F8 /* Pods_CodeHeroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415E477922EF8D9F0D9D9A9E /* Pods_CodeHeroTests.framework */; };
+		A044718B24199B25004C95F0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044718A24199B25004C95F0 /* Router.swift */; };
+		A044718D24199BB6004C95F0 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044718C24199BB6004C95F0 /* ServiceLayer.swift */; };
+		A044719324199DD6004C95F0 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A044719124199DD5004C95F0 /* LoadingView.xib */; };
+		A044719424199DD6004C95F0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044719224199DD6004C95F0 /* LoadingView.swift */; };
+		A044719824199E02004C95F0 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044719624199E02004C95F0 /* CircularButton.swift */; };
+		A044719E24199E48004C95F0 /* NameOfClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044719B24199E48004C95F0 /* NameOfClass.swift */; };
+		A044719F24199E48004C95F0 /* ToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044719C24199E48004C95F0 /* ToString.swift */; };
+		A04471A12419A0DA004C95F0 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04471A02419A0DA004C95F0 /* Colors.xcassets */; };
+		A04471A42419A1CC004C95F0 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A04471A32419A1CC004C95F0 /* Roboto-Black.ttf */; };
+		A04471A62419A1D6004C95F0 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A04471A52419A1D6004C95F0 /* Roboto-Light.ttf */; };
+		A04471A8241A7FA3004C95F0 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A04471A7241A7FA3004C95F0 /* Roboto-Regular.ttf */; };
+		A04471AA241A8544004C95F0 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471A9241A8544004C95F0 /* CircularImageView.swift */; };
+		A04471AC241A864C004C95F0 /* HeroListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471AB241A864C004C95F0 /* HeroListCell.swift */; };
+		A04471AE241A869C004C95F0 /* HeroListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471AD241A869C004C95F0 /* HeroListPresenter.swift */; };
+		A04471B0241A86E3004C95F0 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471AF241A86E3004C95F0 /* Presenter.swift */; };
+		A04471B2241A8702004C95F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471B1241A8702004C95F0 /* ViewController.swift */; };
+		A04471BA241A8A62004C95F0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471B9241A8A62004C95F0 /* Constants.swift */; };
+		A04471BC241A8B20004C95F0 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471BB241A8B20004C95F0 /* Hero.swift */; };
+		A04471BE241A8B93004C95F0 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471BD241A8B93004C95F0 /* Image.swift */; };
+		A04471C0241A8C0A004C95F0 /* HeroListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471BF241A8C0A004C95F0 /* HeroListService.swift */; };
+		A04471C2241A8E85004C95F0 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471C1241A8E85004C95F0 /* Crypto.swift */; };
+		A04471C4241A9177004C95F0 /* Timestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471C3241A9177004C95F0 /* Timestamp.swift */; };
+		A04471C6241AA4B3004C95F0 /* MarvelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471C5241AA4B3004C95F0 /* MarvelResponse.swift */; };
+		A04471C8241AA519004C95F0 /* DataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471C7241AA519004C95F0 /* DataContainer.swift */; };
+		A04471CC241AA9C5004C95F0 /* MarvelError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471CB241AA9C5004C95F0 /* MarvelError.swift */; };
+		A04471D4241BE0C9004C95F0 /* HeroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471D3241BE0C9004C95F0 /* HeroDetailViewController.swift */; };
+		A04471D6241BE0F8004C95F0 /* HeroDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471D5241BE0F8004C95F0 /* HeroDetailPresenter.swift */; };
+		A04471D8241BE193004C95F0 /* HeroDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04471D7241BE193004C95F0 /* HeroDetail.storyboard */; };
+		A04471DA241BE95F004C95F0 /* ComicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471D9241BE95F004C95F0 /* ComicList.swift */; };
+		A04471DC241BE9AF004C95F0 /* ComicSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471DB241BE9AF004C95F0 /* ComicSummary.swift */; };
+		A04471DF241BEA42004C95F0 /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471DE241BEA42004C95F0 /* Comic.swift */; };
+		A04471E1241BEAAD004C95F0 /* HeroDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471E0241BEAAD004C95F0 /* HeroDetailsService.swift */; };
+		A04471E4241C0D3D004C95F0 /* ComicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04471E3241C0D3D004C95F0 /* ComicCell.swift */; };
 		A0BEE3A62419564D00427521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BEE3A52419564D00427521 /* AppDelegate.swift */; };
 		A0BEE3A82419564D00427521 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BEE3A72419564D00427521 /* SceneDelegate.swift */; };
-		A0BEE3AA2419564D00427521 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BEE3A92419564D00427521 /* ViewController.swift */; };
-		A0BEE3AD2419564D00427521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BEE3AB2419564D00427521 /* Main.storyboard */; };
-		A0BEE3AF2419565000427521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BEE3AE2419565000427521 /* Assets.xcassets */; };
+		A0BEE3AA2419564D00427521 /* HeroListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BEE3A92419564D00427521 /* HeroListViewController.swift */; };
+		A0BEE3AD2419564D00427521 /* HeroList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BEE3AB2419564D00427521 /* HeroList.storyboard */; };
+		A0BEE3AF2419565000427521 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BEE3AE2419565000427521 /* Images.xcassets */; };
 		A0BEE3B22419565000427521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BEE3B02419565000427521 /* LaunchScreen.storyboard */; };
 		A0BEE3BD2419565000427521 /* CodeHeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BEE3BC2419565000427521 /* CodeHeroTests.swift */; };
+		EBE2ED7EE04466E2DD15FED6 /* Pods_CodeHero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1FF12E7EF4A8D5B28F6740 /* Pods_CodeHero.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +62,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D1FF12E7EF4A8D5B28F6740 /* Pods_CodeHero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeHero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F79FDB768F2F3872DC49801 /* Pods-CodeHero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeHero.release.xcconfig"; path = "Target Support Files/Pods-CodeHero/Pods-CodeHero.release.xcconfig"; sourceTree = "<group>"; };
+		34D98033EC1B3725347013C2 /* Pods-CodeHero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeHero.debug.xcconfig"; path = "Target Support Files/Pods-CodeHero/Pods-CodeHero.debug.xcconfig"; sourceTree = "<group>"; };
+		415E477922EF8D9F0D9D9A9E /* Pods_CodeHeroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeHeroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A044718A24199B25004C95F0 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		A044718C24199BB6004C95F0 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		A044719124199DD5004C95F0 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		A044719224199DD6004C95F0 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A044719624199E02004C95F0 /* CircularButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
+		A044719B24199E48004C95F0 /* NameOfClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameOfClass.swift; sourceTree = "<group>"; };
+		A044719C24199E48004C95F0 /* ToString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToString.swift; sourceTree = "<group>"; };
+		A04471A02419A0DA004C95F0 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		A04471A32419A1CC004C95F0 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		A04471A52419A1D6004C95F0 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		A04471A7241A7FA3004C95F0 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		A04471A9241A8544004C95F0 /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
+		A04471AB241A864C004C95F0 /* HeroListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListCell.swift; sourceTree = "<group>"; };
+		A04471AD241A869C004C95F0 /* HeroListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListPresenter.swift; sourceTree = "<group>"; };
+		A04471AF241A86E3004C95F0 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		A04471B1241A8702004C95F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A04471B9241A8A62004C95F0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A04471BB241A8B20004C95F0 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		A04471BD241A8B93004C95F0 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		A04471BF241A8C0A004C95F0 /* HeroListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListService.swift; sourceTree = "<group>"; };
+		A04471C1241A8E85004C95F0 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		A04471C3241A9177004C95F0 /* Timestamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timestamp.swift; sourceTree = "<group>"; };
+		A04471C5241AA4B3004C95F0 /* MarvelResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelResponse.swift; sourceTree = "<group>"; };
+		A04471C7241AA519004C95F0 /* DataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContainer.swift; sourceTree = "<group>"; };
+		A04471CB241AA9C5004C95F0 /* MarvelError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelError.swift; sourceTree = "<group>"; };
+		A04471D3241BE0C9004C95F0 /* HeroDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailViewController.swift; sourceTree = "<group>"; };
+		A04471D5241BE0F8004C95F0 /* HeroDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailPresenter.swift; sourceTree = "<group>"; };
+		A04471D7241BE193004C95F0 /* HeroDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HeroDetail.storyboard; sourceTree = "<group>"; };
+		A04471D9241BE95F004C95F0 /* ComicList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicList.swift; sourceTree = "<group>"; };
+		A04471DB241BE9AF004C95F0 /* ComicSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicSummary.swift; sourceTree = "<group>"; };
+		A04471DE241BEA42004C95F0 /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
+		A04471E0241BEAAD004C95F0 /* HeroDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailsService.swift; sourceTree = "<group>"; };
+		A04471E3241C0D3D004C95F0 /* ComicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicCell.swift; sourceTree = "<group>"; };
 		A0BEE3A22419564D00427521 /* CodeHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BEE3A52419564D00427521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0BEE3A72419564D00427521 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A0BEE3A92419564D00427521 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A0BEE3AC2419564D00427521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A0BEE3AE2419565000427521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0BEE3A92419564D00427521 /* HeroListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListViewController.swift; sourceTree = "<group>"; };
+		A0BEE3AC2419564D00427521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HeroList.storyboard; sourceTree = "<group>"; };
+		A0BEE3AE2419565000427521 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A0BEE3B12419565000427521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0BEE3B32419565000427521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0BEE3B82419565000427521 /* CodeHeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeHeroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BEE3BC2419565000427521 /* CodeHeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeHeroTests.swift; sourceTree = "<group>"; };
 		A0BEE3BE2419565000427521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1602EA39ADE4EE9B136C222 /* Pods-CodeHeroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeHeroTests.debug.xcconfig"; path = "Target Support Files/Pods-CodeHeroTests/Pods-CodeHeroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF09018B5C2CB9F773D95295 /* Pods-CodeHeroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeHeroTests.release.xcconfig"; path = "Target Support Files/Pods-CodeHeroTests/Pods-CodeHeroTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE2ED7EE04466E2DD15FED6 /* Pods_CodeHero.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +127,166 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B3E73A54B0D76A371511F8 /* Pods_CodeHeroTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		351B7A4895AEE4CD3CC1A96A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D1FF12E7EF4A8D5B28F6740 /* Pods_CodeHero.framework */,
+				415E477922EF8D9F0D9D9A9E /* Pods_CodeHeroTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0447186241999EA004C95F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A04471C5241AA4B3004C95F0 /* MarvelResponse.swift */,
+				A04471BB241A8B20004C95F0 /* Hero.swift */,
+				A04471BD241A8B93004C95F0 /* Image.swift */,
+				A04471C7241AA519004C95F0 /* DataContainer.swift */,
+				A04471CB241AA9C5004C95F0 /* MarvelError.swift */,
+				A04471D9241BE95F004C95F0 /* ComicList.swift */,
+				A04471DB241BE9AF004C95F0 /* ComicSummary.swift */,
+				A04471DE241BEA42004C95F0 /* Comic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0447187241999F4004C95F0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A044718A24199B25004C95F0 /* Router.swift */,
+				A044718C24199BB6004C95F0 /* ServiceLayer.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A044718924199ADF004C95F0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A04471BF241A8C0A004C95F0 /* HeroListService.swift */,
+				A04471E0241BEAAD004C95F0 /* HeroDetailsService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A044719024199DBC004C95F0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A044719224199DD6004C95F0 /* LoadingView.swift */,
+				A044719124199DD5004C95F0 /* LoadingView.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A044719524199DF4004C95F0 /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				A044719624199E02004C95F0 /* CircularButton.swift */,
+				A04471A9241A8544004C95F0 /* CircularImageView.swift */,
+			);
+			path = Designables;
+			sourceTree = "<group>";
+		};
+		A04471A22419A1B9004C95F0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A04471A7241A7FA3004C95F0 /* Roboto-Regular.ttf */,
+				A04471A32419A1CC004C95F0 /* Roboto-Black.ttf */,
+				A04471A52419A1D6004C95F0 /* Roboto-Light.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A04471B3241A8964004C95F0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A0BEE3A92419564D00427521 /* HeroListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A04471B4241A896A004C95F0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A04471AB241A864C004C95F0 /* HeroListCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A04471B5241A896E004C95F0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A04471AD241A869C004C95F0 /* HeroListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A04471B6241A8975004C95F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0BEE3AB2419564D00427521 /* HeroList.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A04471CF241BE0A0004C95F0 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				A04471E2241C0D2F004C95F0 /* Cell */,
+				A04471D2241BE0B1004C95F0 /* ViewController */,
+				A04471D1241BE0AB004C95F0 /* Presenter */,
+				A04471D0241BE0A7004C95F0 /* View */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		A04471D0241BE0A7004C95F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A04471D7241BE193004C95F0 /* HeroDetail.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A04471D1241BE0AB004C95F0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A04471D5241BE0F8004C95F0 /* HeroDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A04471D2241BE0B1004C95F0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A04471D3241BE0C9004C95F0 /* HeroDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A04471E2241C0D2F004C95F0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A04471E3241C0D3D004C95F0 /* ComicCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		A0BEE3992419564D00427521 = {
 			isa = PBXGroup;
 			children = (
 				A0BEE3A42419564D00427521 /* CodeHero */,
 				A0BEE3BB2419565000427521 /* CodeHeroTests */,
 				A0BEE3A32419564D00427521 /* Products */,
+				E1C9833584346D8F589379A6 /* Pods */,
+				351B7A4895AEE4CD3CC1A96A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +302,12 @@
 		A0BEE3A42419564D00427521 /* CodeHero */ = {
 			isa = PBXGroup;
 			children = (
-				A0BEE3A52419564D00427521 /* AppDelegate.swift */,
-				A0BEE3A72419564D00427521 /* SceneDelegate.swift */,
-				A0BEE3A92419564D00427521 /* ViewController.swift */,
-				A0BEE3AB2419564D00427521 /* Main.storyboard */,
-				A0BEE3AE2419565000427521 /* Assets.xcassets */,
-				A0BEE3B02419565000427521 /* LaunchScreen.storyboard */,
-				A0BEE3B32419565000427521 /* Info.plist */,
+				A0BEE3C72419963000427521 /* Assets */,
+				A0BEE3CE241996F200427521 /* Base */,
+				A0BEE3C82419963B00427521 /* Data */,
+				A0BEE3CB2419964F00427521 /* Scenes */,
+				A0BEE3CC241996C700427521 /* SupportingFiles */,
+				A0BEE3CD241996CE00427521 /* Util */,
 			);
 			path = CodeHero;
 			sourceTree = "<group>";
@@ -99,6 +321,107 @@
 			path = CodeHeroTests;
 			sourceTree = "<group>";
 		};
+		A0BEE3C72419963000427521 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A04471A02419A0DA004C95F0 /* Colors.xcassets */,
+				A0BEE3AE2419565000427521 /* Images.xcassets */,
+				A04471A22419A1B9004C95F0 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A0BEE3C82419963B00427521 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A044718924199ADF004C95F0 /* Service */,
+				A0447187241999F4004C95F0 /* Network */,
+				A0447186241999EA004C95F0 /* Model */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A0BEE3CB2419964F00427521 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A04471CF241BE0A0004C95F0 /* Details */,
+				A0BEE3D12419972C00427521 /* List */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A0BEE3CC241996C700427521 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A0BEE3A52419564D00427521 /* AppDelegate.swift */,
+				A0BEE3B32419565000427521 /* Info.plist */,
+				A0BEE3B02419565000427521 /* LaunchScreen.storyboard */,
+				A0BEE3A72419564D00427521 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A0BEE3CD241996CE00427521 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A044719B24199E48004C95F0 /* NameOfClass.swift */,
+				A044719C24199E48004C95F0 /* ToString.swift */,
+				A044719524199DF4004C95F0 /* Designables */,
+				A044719024199DBC004C95F0 /* Components */,
+				A04471B9241A8A62004C95F0 /* Constants.swift */,
+				A04471C1241A8E85004C95F0 /* Crypto.swift */,
+				A04471C3241A9177004C95F0 /* Timestamp.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A0BEE3CE241996F200427521 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A0BEE3D02419970B00427521 /* Presenter */,
+				A0BEE3CF2419970700427521 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A0BEE3CF2419970700427521 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A04471B1241A8702004C95F0 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A0BEE3D02419970B00427521 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A04471AF241A86E3004C95F0 /* Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A0BEE3D12419972C00427521 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				A04471B6241A8975004C95F0 /* View */,
+				A04471B5241A896E004C95F0 /* Presenter */,
+				A04471B4241A896A004C95F0 /* Cell */,
+				A04471B3241A8964004C95F0 /* ViewController */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		E1C9833584346D8F589379A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34D98033EC1B3725347013C2 /* Pods-CodeHero.debug.xcconfig */,
+				0F79FDB768F2F3872DC49801 /* Pods-CodeHero.release.xcconfig */,
+				C1602EA39ADE4EE9B136C222 /* Pods-CodeHeroTests.debug.xcconfig */,
+				DF09018B5C2CB9F773D95295 /* Pods-CodeHeroTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +429,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0BEE3C12419565000427521 /* Build configuration list for PBXNativeTarget "CodeHero" */;
 			buildPhases = (
+				05ABDA2F55D1451621E8F088 /* [CP] Check Pods Manifest.lock */,
 				A0BEE39E2419564D00427521 /* Sources */,
 				A0BEE39F2419564D00427521 /* Frameworks */,
 				A0BEE3A02419564D00427521 /* Resources */,
+				69759D5AB6A153A59BD07DD7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +448,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0BEE3C42419565000427521 /* Build configuration list for PBXNativeTarget "CodeHeroTests" */;
 			buildPhases = (
+				6FAE7593DC5F8F229F059BD2 /* [CP] Check Pods Manifest.lock */,
 				A0BEE3B42419565000427521 /* Sources */,
 				A0BEE3B52419565000427521 /* Frameworks */,
 				A0BEE3B62419565000427521 /* Resources */,
@@ -180,9 +506,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04471A12419A0DA004C95F0 /* Colors.xcassets in Resources */,
 				A0BEE3B22419565000427521 /* LaunchScreen.storyboard in Resources */,
-				A0BEE3AF2419565000427521 /* Assets.xcassets in Resources */,
-				A0BEE3AD2419564D00427521 /* Main.storyboard in Resources */,
+				A04471A8241A7FA3004C95F0 /* Roboto-Regular.ttf in Resources */,
+				A04471D8241BE193004C95F0 /* HeroDetail.storyboard in Resources */,
+				A044719324199DD6004C95F0 /* LoadingView.xib in Resources */,
+				A0BEE3AF2419565000427521 /* Images.xcassets in Resources */,
+				A04471A62419A1D6004C95F0 /* Roboto-Light.ttf in Resources */,
+				A0BEE3AD2419564D00427521 /* HeroList.storyboard in Resources */,
+				A04471A42419A1CC004C95F0 /* Roboto-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,13 +527,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05ABDA2F55D1451621E8F088 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeHero-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69759D5AB6A153A59BD07DD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeHero/Pods-CodeHero-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeHero/Pods-CodeHero-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodeHero/Pods-CodeHero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FAE7593DC5F8F229F059BD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeHeroTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0BEE39E2419564D00427521 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0BEE3AA2419564D00427521 /* ViewController.swift in Sources */,
+				A04471DA241BE95F004C95F0 /* ComicList.swift in Sources */,
+				A044719824199E02004C95F0 /* CircularButton.swift in Sources */,
+				A04471C0241A8C0A004C95F0 /* HeroListService.swift in Sources */,
+				A04471E4241C0D3D004C95F0 /* ComicCell.swift in Sources */,
+				A04471BA241A8A62004C95F0 /* Constants.swift in Sources */,
+				A044718D24199BB6004C95F0 /* ServiceLayer.swift in Sources */,
+				A04471B0241A86E3004C95F0 /* Presenter.swift in Sources */,
+				A04471D6241BE0F8004C95F0 /* HeroDetailPresenter.swift in Sources */,
+				A04471C4241A9177004C95F0 /* Timestamp.swift in Sources */,
+				A04471C8241AA519004C95F0 /* DataContainer.swift in Sources */,
+				A04471DF241BEA42004C95F0 /* Comic.swift in Sources */,
+				A04471AC241A864C004C95F0 /* HeroListCell.swift in Sources */,
+				A04471D4241BE0C9004C95F0 /* HeroDetailViewController.swift in Sources */,
+				A044718B24199B25004C95F0 /* Router.swift in Sources */,
+				A04471BE241A8B93004C95F0 /* Image.swift in Sources */,
+				A0BEE3AA2419564D00427521 /* HeroListViewController.swift in Sources */,
+				A04471CC241AA9C5004C95F0 /* MarvelError.swift in Sources */,
+				A04471C6241AA4B3004C95F0 /* MarvelResponse.swift in Sources */,
 				A0BEE3A62419564D00427521 /* AppDelegate.swift in Sources */,
+				A04471B2241A8702004C95F0 /* ViewController.swift in Sources */,
+				A04471C2241A8E85004C95F0 /* Crypto.swift in Sources */,
+				A044719F24199E48004C95F0 /* ToString.swift in Sources */,
+				A04471AA241A8544004C95F0 /* CircularImageView.swift in Sources */,
+				A04471E1241BEAAD004C95F0 /* HeroDetailsService.swift in Sources */,
+				A044719424199DD6004C95F0 /* LoadingView.swift in Sources */,
+				A04471BC241A8B20004C95F0 /* Hero.swift in Sources */,
+				A044719E24199E48004C95F0 /* NameOfClass.swift in Sources */,
+				A04471AE241A869C004C95F0 /* HeroListPresenter.swift in Sources */,
+				A04471DC241BE9AF004C95F0 /* ComicSummary.swift in Sources */,
 				A0BEE3A82419564D00427521 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,12 +648,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A0BEE3AB2419564D00427521 /* Main.storyboard */ = {
+		A0BEE3AB2419564D00427521 /* HeroList.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A0BEE3AC2419564D00427521 /* Base */,
 			);
-			name = Main.storyboard;
+			name = HeroList.storyboard;
 			sourceTree = "<group>";
 		};
 		A0BEE3B02419565000427521 /* LaunchScreen.storyboard */ = {
@@ -360,11 +783,12 @@
 		};
 		A0BEE3C22419565000427521 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34D98033EC1B3725347013C2 /* Pods-CodeHero.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U7753TEDYK;
-				INFOPLIST_FILE = CodeHero/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CodeHero/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,11 +802,12 @@
 		};
 		A0BEE3C32419565000427521 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F79FDB768F2F3872DC49801 /* Pods-CodeHero.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U7753TEDYK;
-				INFOPLIST_FILE = CodeHero/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CodeHero/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,6 +821,7 @@
 		};
 		A0BEE3C52419565000427521 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1602EA39ADE4EE9B136C222 /* Pods-CodeHeroTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +844,7 @@
 		};
 		A0BEE3C62419565000427521 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF09018B5C2CB9F773D95295 /* Pods-CodeHeroTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

@@ -1,0 +1,39 @@
+PODS:
+  - Auk (11.0.0):
+    - moa
+  - ESPullToRefresh (2.9.2)
+  - moa (12.0.0)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
+
+DEPENDENCIES:
+  - Auk (~> 11.0)
+  - ESPullToRefresh
+  - moa (~> 12.0)
+  - RxCocoa
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - Auk
+    - ESPullToRefresh
+    - moa
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Auk: 7cc533252e2caaaa36b2be19c0b799f6057c365a
+  ESPullToRefresh: efed00d52597065e9a84e1e52fa444fdb1a1dee0
+  moa: e2346f12de6c65bbca4d103950d45db9e46785ef
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxRelay: a168bd6caf712d00c676ac344e9295afc93b418e
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+
+PODFILE CHECKSUM: ac074dad430830eae952ecb0b5446d2050d64cd7
+
+COCOAPODS: 1.8.4
